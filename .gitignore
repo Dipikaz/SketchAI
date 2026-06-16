@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+sketchenv/
+
+# Outputs
+test-outputs/
+*.png
+*.psd
+*.procreate
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+.next/
+
+# Mac
+.DS_Store

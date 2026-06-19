@@ -237,6 +237,7 @@ def _inject_layers(
     root["backgroundColor"]       = uid_bg_rgba
     root["backgroundColorHSBA"]   = uid_bg_hsba
     root["backgroundHidden"]      = False   # reference had True → dark canvas
+    root["orientation"]           = 1       # portrait; reference had 4 (landscape)
 
     return plistlib.dumps(archive, fmt=plistlib.FMT_BINARY)
 
